@@ -26,13 +26,13 @@ justify-content: center;
 .imagen-product{
     width: 200px;
 }
- .allproducts-layouth3{
+ .allproducts-layout h3{
     font-size: 24px;
     font-weight: 500;
     margin-bottom: -1em;
 
 }
-.allproducts-layoutp{
+.allproducts-layout p{
     font-size: 26px;
     font-weight: bold;
 

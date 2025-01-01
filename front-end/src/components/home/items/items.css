@@ -22,6 +22,7 @@ justify-content: center;
     flex-direction: column;
     align-items: center;
     gap: 2em;
+    line-height: 4;
 }
 .box-conteiner .imagen-product{
     width: 200px;
