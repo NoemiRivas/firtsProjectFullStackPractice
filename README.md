@@ -38,9 +38,8 @@ La aplicación permite a los usuarios:
     - Los usuarios pueden registrarse, iniciar sesión y gestionar su cuenta.
 2. **Gestión de Productos**
     - Listado de productos disponibles en la tienda.
-    - Visualización de detalles del producto.
 3. **Carrito de Compras**
-    - Agregar, eliminar o modificar productos en el carrito.
+    - Agregar, eliminar productos en el carrito.
 4. **Conexión Frontend-Backend**
     - Peticiones RESTful para manejar datos en tiempo real.
 
