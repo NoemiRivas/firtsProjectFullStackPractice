@@ -48,7 +48,7 @@ La aplicación permite a los usuarios:
 ### **Clonar el repositorio**
 
 ```bash
-git clone <https://github.com/tu-usuario/proyecto-ecommerce.git>
+git clone <https://github.com/NoemiRivas/firtsProjectFullStackPractice.git>
 cd proyecto-ecommerce
 
 ```
