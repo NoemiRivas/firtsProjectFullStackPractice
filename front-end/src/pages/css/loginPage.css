@@ -1,0 +1,66 @@
+.login-container{
+    max-width: 800px;
+    margin: auto;
+    padding: 0;
+    margin-bottom: 4em;
+}
+.login-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+}
+.login-page h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+.login-page .email{
+    padding-block: 0.8em;
+
+    font-size: 15px;
+    padding-inline-start: 14px;
+    border-style: none;
+    border-bottom: solid 3px #001D3D;
+}
+.login-page .password{
+    padding-block: 0.8em;
+    border-style: none;
+    border-bottom: solid 3px #001D3D;
+    font-size: 15px;
+    padding-inline-start: 14px;
+}
+.login-page  p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #dddd;
+}
+
+.login-page .enviar{
+    padding: 0.8em 1.6em;
+    font-size: 18px;
+    text-transform: capitalize;
+    border-radius: 16px;
+    cursor: pointer;
+    border-style: none;
+
+}
+.login-page .link-register:hover{
+    color:#00b9e8 ;
+}
+.login-page .link-register{
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #dddd;
+    
+}
+.errors{
+    padding: 2em;
+    background: red;
+    color: #fff;
+    max-width: fit-content;
+    border-radius: 20px;
+    margin-block: 2em;
+}

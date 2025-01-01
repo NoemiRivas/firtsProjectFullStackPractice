@@ -1,0 +1,95 @@
+footer {
+  display: flex;
+  text-align: center;
+  background-color: #242124;
+  color: white;
+  padding: 3rem 2rem;
+
+}
+
+
+.footer-logo {
+  margin-bottom: 2rem;
+  text-align: center;
+
+  .link {
+    text-decoration: none;
+  }
+}
+
+.footer-logo h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.white-letter {
+  color: #00b9e8;
+}
+
+.footer-logo p {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.footer-logo span {
+  text-decoration: none;
+  margin-top: 1rem;
+  font-size: 1em;
+  color: #aaa;
+
+}
+
+.nav-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  text-align: end;
+}
+
+.nav-footer h2.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00b9e8;
+  margin-bottom: 0.8rem;
+}
+
+.nav-footer p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  color: #d1d1d1;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-footer p:hover {
+  color: #00b9e8;
+  cursor: pointer;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  footer {
+    padding: 2rem 1rem;
+  }
+
+  .footer-logo h2 {
+    font-size: 2rem;
+  }
+
+  .footer-logo p {
+    font-size: 0.9rem;
+  }
+
+  .nav-footer {
+    margin-bottom: 1.5rem;
+  }
+
+  .nav-footer h2.title {
+    font-size: 1.3rem;
+  }
+
+  .nav-footer p {
+    font-size: 0.9rem;
+  }
+}

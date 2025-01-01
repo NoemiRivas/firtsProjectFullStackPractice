@@ -1,0 +1,61 @@
+.hero-conteiner {
+    background-image: url(/imagen-hero.jpg);
+    background-size: cover;
+    width: 100%;
+
+}
+
+.introduction-page {
+    max-width: 100%;
+    padding-top: 6em;
+    background: #00000038;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+
+}
+
+.introduction-page h2 {
+    max-width: 46%;
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1;
+    color: #fff;
+}
+
+.introduction-page button {
+
+    margin-bottom: 2em;
+    padding: 0.8em;
+    font-size: 18px;
+    border-radius: 7px;
+    border: none;
+    background: #00b9e8;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.introduction-page .font-blackcontauner {
+    max-width: 46%;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 4em;
+    color: #fff;
+}
+
+.introduction-page .span{
+     max-width: 64%;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 4em;
+    color: #fff;
+    background-color: #5368785e;
+    padding: 2em;
+    border-radius: 20px 20px 0px 0px;
+    border: none;
+}
+.introduction-page span .fontsize-small{
+    font-size: 12px;
+    margin-top: 2em;
+}

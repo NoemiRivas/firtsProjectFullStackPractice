@@ -1,0 +1,42 @@
+*{
+    margin: auto;
+    box-sizing: border-box;
+    
+}
+.max-container{
+    max-width: 1200px;
+}
+/*fonts*/
+/*h2*/
+.text-title{
+    font-size: 24px;
+    font-weight: 500;
+    margin-inline-start: 2em;
+    padding-top: 0.8em;
+    margin-bottom: 2em;
+}
+/*layout*/
+.body{
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    list-style: none;
+background-color: #242124;
+
+}
+/*messages*/
+.errors{
+    padding: 2em;
+    background: red;
+    color: #fff;
+    max-width: fit-content;
+    border-radius: 20px;
+    margin-block: 2em;
+}
+.success-message{
+    padding: 2em;
+    background: green;
+    color: #fff;
+    max-width: fit-content;
+    border-radius: 20px;
+    margin-block: 2em;
+}

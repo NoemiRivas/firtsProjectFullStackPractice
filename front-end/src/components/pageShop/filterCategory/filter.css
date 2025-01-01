@@ -1,0 +1,49 @@
+.conteiner-sidebar{
+    display: flex;
+    background: #242124;
+    padding-block: 2.6em;
+}
+.title{
+    margin-inline-start: 2em;
+    color: #fff;
+}
+.select-stayle{
+    padding: 0.6em 8em;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+}
+.value-stayle{
+    font-size: 14px;
+    font-weight: 500;
+}
+@media (max-width: 1000px){
+    .conteiner-sidebar{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+    .title{
+        margin-inline-start: 7em;
+        color: #fff;
+        margin: auto;
+    }
+
+}
+
+
+
+
+
+@media (max-width: 768px){
+    .conteiner-sidebar{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+    .title{
+        margin-inline-start: 2em;
+        color: #fff;
+    }
+
+}
