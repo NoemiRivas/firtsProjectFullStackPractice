@@ -8,7 +8,7 @@ header {
     display: flex;
     align-items: center;
     padding: 1em 2em;
-    justify-content: space-between; 
+    justify-content: space-between;
     width: 100%;
     gap: 2em;
 
@@ -62,15 +62,14 @@ nav {
 }
 
 .icons {
- 
+
     margin: 0;
     display: flex;
     gap: 0.4em;
 }
 
-.user-info{
-    display: flex
-;
+.user-info {
+    display: flex;
     align-items: center;
     gap: 1em;
     color: #fff;
@@ -83,24 +82,27 @@ nav {
         align-items: center;
         padding: 2em;
         justify-content: space-evenly;
-    
+
     }
-    .name{
+
+    .name {
         display: none;
     }
-    nav{
-        display: none; 
+
+    nav {
+        display: none;
         flex-direction: column;
         gap: 1em;
         width: 100%;
         background-color: #242124;
         padding: 1em;
     }
- nav.open{
-    position: fixed;
-    top: 8em;
-    gap: 3em;
-    background: #373d3d;
+
+    nav.open {
+        position: fixed;
+        top: 8em;
+        gap: 3em;
+        background: #373d3d;
         display: flex;
         flex-direction: column;
         font-size: 12px;
@@ -110,15 +112,16 @@ nav {
 
 
     .menu-toggle {
-           display: block;
-           cursor: pointer;
-           margin-top: 1em;
-           margin-inline-end: 0;
-           margin-bottom: 1em;
-           color: #ffff;
+        display: block;
+        cursor: pointer;
+        margin-top: 1em;
+        margin-inline-end: 0;
+        margin-bottom: 1em;
+        color: #ffff;
     }
-    .logo{
+
+    .logo {
         display: none;
     }
-   
+
 }

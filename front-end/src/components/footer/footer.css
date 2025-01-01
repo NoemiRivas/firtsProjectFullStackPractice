@@ -70,6 +70,8 @@ footer {
 /* Estilos responsivos */
 @media (max-width: 768px) {
   footer {
+    display: flex;
+    flex-direction: column;
     padding: 2rem 1rem;
   }
 
@@ -83,10 +85,12 @@ footer {
 
   .nav-footer {
     margin-bottom: 1.5rem;
+    text-align: center;
   }
 
   .nav-footer h2.title {
     font-size: 1.3rem;
+    margin-inline-start: 0%;
   }
 
   .nav-footer p {
